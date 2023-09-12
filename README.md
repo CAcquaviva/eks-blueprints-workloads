@@ -1,4 +1,4 @@
-# EKS Blueprints Workloads
+# EKS Blueprints Workloads2
 
 Welcome to the EKS Blueprints Workloads repository.
 
