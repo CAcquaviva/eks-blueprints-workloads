@@ -9,5 +9,5 @@ metadata:
 config:
   minute: 5
   policy: redis
-  redis_host: redis.redis.svc.cluster.local
+  redis_host: redis.kong.svc.cluster.local
 plugin: rate-limiting
