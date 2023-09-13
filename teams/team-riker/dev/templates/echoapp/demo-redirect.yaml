@@ -5,6 +5,8 @@ metadata:
   namespace: kong
   annotations:
     konghq.com/strip-path: "true"
+    konghq.com/protocols: "https"
+    konghq.com/https-redirect-status-code: "302"
 spec:
   ingressClassName: kong
   rules:
