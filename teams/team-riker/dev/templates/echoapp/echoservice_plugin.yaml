@@ -5,8 +5,6 @@ metadata:
     app: echo
   name: echo
   namespace: kong
-  annotations:
-    konghq.com/plugins: "echo-auth"
 spec:
   ports:
   - port: 8080
