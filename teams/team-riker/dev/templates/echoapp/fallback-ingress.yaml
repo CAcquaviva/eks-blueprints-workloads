@@ -1,0 +1,13 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: fallback
+  namespace: kong
+  annotations:
+spec:
+  ingressClassName: kong
+  defaultBackend:
+    service:
+      name: fallback-svc
+      port:
+        number: 80
