@@ -2,7 +2,7 @@ apiVersion: configuration.konghq.com/v1
 kind: KongPlugin
 metadata:
   name: oidc
-  namespace: default
+  namespace: kong
 config:
   client_id: [1v7m9aj6mmpodbb44qfbghud1t]
   client_secret: [7m13imuuj346j5hfcrqiphn3cmeskv78f4s478fju9h2iudlid3]
