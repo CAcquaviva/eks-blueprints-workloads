@@ -8,5 +8,5 @@ config:
   client_secret: [7m13imuuj346j5hfcrqiphn3cmeskv78f4s478fju9h2iudlid3]
   issuer: "https://cognito-idp.eu-central-1.amazonaws.com/eu-central-1_6GicvBp1q/.well-known/openid-configuration"
   cache_ttl: 10
-  redirect_uri: ["https://a0cbf112af747463991ca6d5d0f0af08-2115173830.eu-central-1.elb.amazonaws.com/bar"]
+  redirect_uri: ["https://a0cbf112af747463991ca6d5d0f0af08-2115173830.eu-central-1.elb.amazonaws.com/echo"]
 plugin: openid-connect
