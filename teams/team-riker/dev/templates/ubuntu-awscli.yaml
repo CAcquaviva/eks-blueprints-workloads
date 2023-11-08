@@ -6,7 +6,7 @@ metadata:
     app: ubuntu
 spec:
   containers:
-  - image: claudioacquaviva/ubuntu-awscli:0.1
+  - image: ubuntu
     command:
       - "sleep"
       - "60000"
