@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: ubuntu
+  name: sampleapp
   labels:
-    app: ubuntu
+    app: sampleapp
 spec:
   containers:
   - image: claudioacquaviva/sampleapp
     imagePullPolicy: IfNotPresent
-    name: ubuntu
+    name: sampleapp
   restartPolicy: Never
