@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: sampleapp
+  name: httpbin
   labels:
-    app: sampleapp
+    app: httpbin
 spec:
   containers:
-  - image: claudioacquaviva/sampleapp
+  - image: kong/httpbin
     imagePullPolicy: IfNotPresent
-    name: sampleapp
+    name: httpbin
   restartPolicy: Never
