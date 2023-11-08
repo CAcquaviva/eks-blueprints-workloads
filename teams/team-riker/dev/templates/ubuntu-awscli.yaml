@@ -6,10 +6,7 @@ metadata:
     app: ubuntu
 spec:
   containers:
-  - image: ubuntu
-    command:
-      - "sleep"
-      - "60000"
+  - image: claudioacquaviva/sampleapp
     imagePullPolicy: IfNotPresent
     name: ubuntu
   restartPolicy: Never
