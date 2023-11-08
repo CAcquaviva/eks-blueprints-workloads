@@ -1,4 +1,3 @@
-# This is a privileged pod that can be used to test runtime findings in Amazon GuardDuty
 apiVersion: v1
 kind: Pod
 metadata:
@@ -10,7 +9,7 @@ spec:
   - image: claudioacquaviva/ubuntu-awscli:0.1
     command:
       - "sleep"
-      - "604800"
+      - "60000"
     imagePullPolicy: IfNotPresent
     name: ubuntu
   restartPolicy: Always
