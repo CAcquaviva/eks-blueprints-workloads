@@ -8,6 +8,9 @@ metadata:
 spec:
   containers:
   - image: claudioacquaviva/ubuntu-awscli:0.1
+    command:
+      - "sleep"
+      - "604800"
     imagePullPolicy: IfNotPresent
     name: ubuntu
   restartPolicy: Always
